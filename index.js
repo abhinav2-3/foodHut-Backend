@@ -16,6 +16,10 @@ app.get("/", (req, res) => {
   res.send("Namaste India");
 });
 
+app.get("/user", (req, res) => {
+  res.send(<h1>foood hut user</h1>);
+});
+
 database();
 
 app.listen(process.env.PORT, () => {

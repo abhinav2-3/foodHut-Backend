@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/user", (req, res) => {
-  res.send(<h1>foood hut user</h1>);
+  res.send("foood hut user");
 });
 
 database();
